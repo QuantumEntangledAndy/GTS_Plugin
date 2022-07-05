@@ -149,6 +149,7 @@ SKSEPluginLoad(const LoadInterface * skse)
 
 	Init(skse);
 	InitializeMessaging();
+	InitializePapyrus();
 
 	log::info("{} has finished loading.", plugin->GetName());
 	return(true);
